@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" type="text/css" href="figma.css">
+    <script src="figmA1.js"></script>
+</head>
+<body>
+    <div class="frame">
+        <div class="container">
+            <h1>Delivery Job Application Form</h1>
+            <div class="logo">©opyright <b>Delivery—App</b> 2022.</div>
+        </div>
+
+        <hr class="line">
+
+        <div>
+            <p>Full Name*</p>
+            <input id="fullName" placeholder="Full Name" class="Inp" type="text">
+        </div>
+
+        <div>
+            <p>Email*</p>
+            <input id="email" placeholder="Email" class="Inp" type="text">
+        </div>
+
+        <div>
+            <p>Phone Number*</p>
+            <input id="phone" placeholder="Phone Number" class="Inp" type="text">
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <p>Workspace Type*</p>
+                <select class="InpSelect">
+                    <option>On-site</option>
+                    <option>Hybrid</option>
+                    <option>Remote</option>
+                </select>
+            </div>
+
+            <div class="flex-item-right">
+                <p>Job Location* <button id="hintButton">🡭</button></p>
+                <input id="jobLocation" placeholder="Job Location" class="joblocation" type="text">
+            </div>
+        </div>
+
+        <div id="hintBox" class="hint">
+            <div>
+                <br/><br/><br/>This job will be shown to<br/>
+                <b><a href=" ">job seekers</a></b> searching for<br/>
+                on-site jobs in this<br/> location.
+            </div>
+            <button class="close-btn" id="closeHint">X</button>
+        </div>
+
+        <div class="zero1">
+            <p>Employment Type*</p>
+            <select class="InpSelect">
+                <option>Full Time</option>
+                <option>Part Time</option>
+                <option>Contract</option>
+                <option>Temporary</option>
+                <option>Volunteer</option>
+                <option>Internship</option>
+            </select>
+        </div>
+
+        <div class="flex-bottom">
+            <div>
+                <button type="submit" class="button" onclick="changeButton()">Send Application</button>
+            </div>
+            <div class="bottom">
+                By clicking <b>Send application</b>, you agree to our <a href="">User Agreement</a>,<br/>
+                <a href="">Privacy Policy</a>, and <a href="https://youtu.be/dQw4w9WgXcQ?si=uIrraYZnrFDptyZ4">Cookie Policy</a>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
