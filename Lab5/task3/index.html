@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Карта з маркером</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 500px; margin-bottom: 20px; }
+        #controls { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Ваше місцезнаходження на карті</h1>
+    <div id="map"></div>
+    <div id="controls">
+        <label>Координати пункту призначення:</label>
+        <input type="text" id="destLat" placeholder="Широта">
+        <input type="text" id="destLng" placeholder="Довгота">
+        <button id="goToDestination">Перейти до пункту призначення</button>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
