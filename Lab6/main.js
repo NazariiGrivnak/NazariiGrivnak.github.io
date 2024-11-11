@@ -11,6 +11,10 @@ request.send();
 request.onload = function() {
     const superHeroes = request.response;
     console.log(superHeroes); // Перевірка, що дані завантажені
+
+    // Викликаємо функції для відображення контенту
+    populateHeader(superHeroes);
+    showHeroes(superHeroes);
 };
 
 function populateHeader(superHeroes) {
@@ -56,4 +60,3 @@ function showHeroes(superHeroes) {
         section.appendChild(heroArticle);
     });
 }
-
