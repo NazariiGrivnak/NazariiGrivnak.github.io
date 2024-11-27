@@ -1,0 +1,97 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Windows 11 Home",
+        "category": "Операційні системи",
+        "price": 6999,
+        "old_price": 8999,
+        "sell_price": 6999,
+        "description": "Операційна система для домашнього використання з останніми оновленнями та функціями.",
+        "image": "images/img-1.webp",
+        "available": true,
+        "tags": ["new"]
+      },
+      {
+        "id": 2,
+        "name": "Windows 11 Pro",
+        "category": "Операційні системи",
+        "price": 10299,
+        "old_price": 12000,
+        "sell_price": 10299,
+        "description": "Операційна система для професіоналів з розширеними можливостями.",
+        "image": "images/img-2.webp",
+        "available": true,
+        "tags": ["hit"]
+      },
+      {
+        "id": 3,
+        "name": "Microsoft Office Home",
+        "category": "Програмне забезпечення",
+        "price": 4444,
+        "sell_price": 4444,
+        "description": "Пакет офісних програм для дому та навчання.",
+        "image": "images/img-3.webp",
+        "available": false,
+        "tags": ["new"]
+      },
+      {
+        "id": 4,
+        "name": "Adobe Creative Cloud",
+        "category": "Карти активації/купони",
+        "price": 3490,
+        "old_price": 4000,
+        "sell_price": 2999,
+        "description": "Набір для графічного дизайну та відеомонтажу.",
+        "image": "images/img-4.webp",
+        "available": true,
+        "tags": []
+      },
+      {
+        "id": 5,
+        "name": "Xbox Game Pass Ultimate",
+        "category": "Карти активації/купони",
+        "price": 840,
+        "sell_price": 840,
+        "description": "Передплата для доступу до сотень ігор на Xbox та ПК.",
+        "image": "images/img-5.webp",
+        "available": true,
+        "tags": ["hit"]
+      },
+      {
+        "id": 6,
+        "name": "Roblox Gift Card",
+        "category": "Карти активації/купони",
+        "price": 899,
+        "sell_price": 899,
+        "description": "Подарункова картка для Roblox з балансом.",
+        "image": "images/img-6.webp",
+        "available": true,
+        "tags": []
+      },
+      {
+        "id": 7,
+        "name": "F-Secure ID Protection",
+        "category": "Антивіруси",
+        "price": 3542,
+        "old_price": 4000,
+        "sell_price": 2799,
+        "description": "Програмне забезпечення для захисту особистих даних.",
+        "image": "images/img-7.webp",
+        "available": true,
+        "tags": []
+      },
+      {
+        "id": 8,
+        "name": "Steam Wallet Gift Card $10",
+        "category": "Карти активації/купони",
+        "price": 700,
+        "sell_price": 700,
+        "description": "Подарункова картка для Steam на суму 10 доларів.",
+        "image": "images/img-8.webp",
+        "available": true,
+        "tags": []
+      }
+    ]
+  }
+  

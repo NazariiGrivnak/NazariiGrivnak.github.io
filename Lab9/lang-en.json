@@ -1,0 +1,93 @@
+{
+    "catalog": "Category",
+    "newItem": "New Item",
+    "hitItem": "Hit Sales",
+    "toCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "price": "Price",
+    "oldPrice": "Old Price",
+    "sellPrice": "Sale Price",
+    "products": [
+      {
+        "category": "Operating Systems",
+        "tags": ["new"],
+        "name": "Windows 11 Home",
+        "old_price": "8999",
+        "sell_price": "6999",
+        "price": "6999",
+        "image": "images/img-1.webp",
+        "available": true
+      },
+      {
+        "category": "Operating Systems",
+        "tags": ["hit"],
+        "name": "Windows 11 Pro",
+        "old_price": "12000",
+        "sell_price": "10299",
+        "price": "10299",
+        "image": "images/img-2.webp",
+        "available": true
+      },
+      {
+        "category": "Software",
+        "tags": ["new"],
+        "name": "Microsoft Office Home",
+        "old_price": "",
+        "sell_price": "4444",
+        "price": "4444",
+        "image": "images/img-3.webp",
+        "available": true
+      },
+      {
+        "category": "Activation Cards / Coupons",
+        "tags": [],
+        "name": "Adobe Creative Cloud",
+        "old_price": "3490",
+        "sell_price": "2999",
+        "price": "2999",
+        "image": "images/img-4.webp",
+        "available": true
+      },
+      {
+        "category": "Activation Cards / Coupons",
+        "tags": [],
+        "name": "Xbox Game Pass Ultimate",
+        "old_price": "",
+        "sell_price": "840",
+        "price": "840",
+        "image": "images/img-5.webp",
+        "available": true
+      },
+      {
+        "category": "Activation Cards / Coupons",
+        "tags": ["hit"],
+        "name": "Roblox Gift Card",
+        "old_price": "",
+        "sell_price": "899",
+        "price": "899",
+        "image": "images/img-6.webp",
+        "available": true
+      },
+      {
+        "category": "Antivirus Software",
+        "tags": [],
+        "name": "F-Secure ID Protection",
+        "old_price": "3542",
+        "sell_price": "2799",
+        "price": "2799",
+        "image": "images/img-7.webp",
+        "available": true
+      },
+      {
+        "category": "Activation Cards / Coupons",
+        "tags": [],
+        "name": "Steam Wallet Gift Card $10",
+        "old_price": "",
+        "sell_price": "700",
+        "price": "700",
+        "image": "images/img-8.webp",
+        "available": true
+      }
+    ]
+  }
+  

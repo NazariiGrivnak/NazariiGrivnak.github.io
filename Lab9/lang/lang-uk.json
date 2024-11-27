@@ -1,0 +1,93 @@
+{
+    "catalog": "Категорія",
+    "newItem": "Новинка",
+    "hitItem": "Хіт Продаж",
+    "toCart": "До кошика",
+    "outOfStock": "Нема в наявності",
+    "price": "Ціна",
+    "oldPrice": "Стара ціна",
+    "sellPrice": "Ціна зі знижкою",
+    "products": [
+      {
+        "category": "Операційні системи",
+        "tags": ["new"],
+        "name": "Windows 11 Home",
+        "old_price": "8999",
+        "sell_price": "6999",
+        "price": "6999",
+        "image": "images/img-1.webp",
+        "available": true
+      },
+      {
+        "category": "Операційні системи",
+        "tags": ["hit"],
+        "name": "Windows 11 Pro",
+        "old_price": "12000",
+        "sell_price": "10299",
+        "price": "10299",
+        "image": "images/img-2.webp",
+        "available": true
+      },
+      {
+        "category": "Програмне забезпечення",
+        "tags": ["new"],
+        "name": "Microsoft Office Home",
+        "old_price": "",
+        "sell_price": "4444",
+        "price": "4444",
+        "image": "images/img-3.webp",
+        "available": true
+      },
+      {
+        "category": "Карти активації/купони",
+        "tags": [],
+        "name": "Adobe Creative Cloud",
+        "old_price": "3490",
+        "sell_price": "2999",
+        "price": "2999",
+        "image": "images/img-4.webp",
+        "available": true
+      },
+      {
+        "category": "Карти активації/купони",
+        "tags": [],
+        "name": "Xbox Game Pass Ultimate",
+        "old_price": "",
+        "sell_price": "840",
+        "price": "840",
+        "image": "images/img-5.webp",
+        "available": true
+      },
+      {
+        "category": "Карти активації/купони",
+        "tags": ["hit"],
+        "name": "Roblox Gift Card",
+        "old_price": "",
+        "sell_price": "899",
+        "price": "899",
+        "image": "images/img-6.webp",
+        "available": true
+      },
+      {
+        "category": "Антивіруси",
+        "tags": [],
+        "name": "F-Secure ID Protection",
+        "old_price": "3542",
+        "sell_price": "2799",
+        "price": "2799",
+        "image": "images/img-7.webp",
+        "available": true
+      },
+      {
+        "category": "Карти активації/купони",
+        "tags": [],
+        "name": "Steam Wallet Gift Card $10",
+        "old_price": "",
+        "sell_price": "700",
+        "price": "700",
+        "image": "images/img-8.webp",
+        "available": true
+      }
+    ]
+  }
+  

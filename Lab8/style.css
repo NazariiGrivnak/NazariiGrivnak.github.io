@@ -1,0 +1,175 @@
+/* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #030728;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+  position: relative;
+  transition: 0.2s;
+  height: auto;
+  user-select: none;
+  padding: 30px 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(53, 53, 53, 0.5);
+}
+
+.card-item:hover{
+  transform: scale(0.97);
+}
+
+.item-label {
+  position: absolute; 
+  top: 10px; 
+  left: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 50%; 
+  padding: 10px;
+  width: 50px; 
+  height: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; 
+}
+
+/* Унікальні кольори */
+.new-item {
+  background-color: #3fbb26; 
+}
+
+.hit-item {
+  background-color: #ff3333; 
+}
+
+
+
+.product-name{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 350px 0 20px;
+  
+}
+
+.item-image {
+  width: 170;
+  height: 300px;
+  position: absolute;
+  padding: 0px 0 50px;
+   
+}
+
+.catalog{
+  font-size: 1.15rem;
+  color: #ffffff;
+  font-weight: 500;
+  position: absolute;
+  top: 35px;
+  
+}
+
+.price {
+  font-size: 1.15rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 10px 0 20px;
+  
+}
+
+.sell-price{
+  font-size: 1.15rem;
+  color: #ff2d2d;
+  font-weight: 500;
+  margin: 10px 0 20px;
+  
+}
+
+.old-price {
+  font-size: 1rem;
+  color: #a8a8a8; 
+  text-decoration: line-through;
+  font-weight: 400;
+  margin-bottom: 0px; 
+  display: block; 
+}
+
+
+.card-list .card-item .button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+  position: absolute;
+  bottom: 25px;
+  
+}
+
+.card-list .card-item .button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
